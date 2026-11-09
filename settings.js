@@ -7,10 +7,10 @@ require('dotenv').config({ override: true });
 
 const settings = {
   // ── Bot Identity ─────────────────────────────────────────────────────────
-  botName:     process.env.BOT_NAME     || 'Queen Riam',
-  botOwner:    process.env.BOT_OWNER    || 'Hector Manuel',
-  packname:    process.env.PACK_NAME    || 'Queen Riam',
-  author:      process.env.PACK_AUTHOR  || 'Hector Manuel',
+  botName:     process.env.BOT_NAME     || 'Bangcats Bot',
+  botOwner:    process.env.BOT_OWNER    || 'C.K.A',
+  packname:    process.env.PACK_NAME    || 'BANGCATS',
+  author:      process.env.PACK_AUTHOR  || 'C.K.A',
   description: 'This is a bot for managing group commands and automating tasks.',
   version:     '1.0.0',
 
